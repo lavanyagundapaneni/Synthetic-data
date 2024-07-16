@@ -5,13 +5,7 @@ The script generates synthetic academic pathway data and outputs it in a structu
 
 ## 1.Initializing the LLM:
 Setting up the Ollama LLM with the LLaMA2 7B model. from langchain_community.llms import Ollama
-inline code 
-` import pandas as pd
-import re
-from langchain_community.llms import Ollama
-
-# Initialize the Ollama LLM with the desired model
-llm = Ollama(model="llama2:7b")`
+`print("Hello, World!")`
 
 ## 2.Generating Synthetic Data:
 Using a predefined prompt template to generate synthetic entries.
