@@ -33,7 +33,8 @@ Using a predefined prompt template to generate synthetic entries.
                 print(f"Unexpected response format at sample {i + 1}: {response}")
         except Exception as e:
             print(f"Error at sample {i + 1}: {e}")
-    return synthetic_data```
+    return synthetic_data
+```
 
 ## 3.Prompt Template:
 ```prompt_template = """Generate a synthetic academic pathway entry. Ensure each entry is unique:
@@ -64,7 +65,8 @@ Country: ...
 Financial Status: ....
 Stream: ....
 Curriculum: ....
-"""```
+"""
+```
 
 ## 4.Parsing Generated Entries:
 Extracting and structuring the relevant information from the generated entries.
@@ -73,7 +75,8 @@ Extracting and structuring the relevant information from the generated entries.
 def parse_entry(entry):
     fields = re.split(r'\n', entry)
     values = [field.split(": ")[1] for field in fields if ": " in field]
-    return values```
+    return values
+```
 
 ## 5.Process and Saving the Data:
 Exporting the DataFrame to a CSV file.
