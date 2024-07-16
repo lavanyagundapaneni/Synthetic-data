@@ -15,7 +15,7 @@ llm = Ollama(model="llama2:7b")
 ```
 
 ## 2.Generating Synthetic Data:
-Using a predefined prompt template to generate synthetic entries.
+Using a predefined prompt template to generate synthetic entries.This function generates synthetic academic pathway entries based on a prompt template. It handles errors and unexpected response formats.
 
 ```def generate_synthetic_data(prompt, n_samples=20):
     synthetic_data = []
@@ -37,6 +37,8 @@ Using a predefined prompt template to generate synthetic entries.
 ```
 
 ## 3.Prompt Template:
+This template provides a structure for the synthetic academic pathway entries, ensuring each entry is unique and well-defined.
+
 ```prompt_template = """Generate a synthetic academic pathway entry. Ensure each entry is unique:
 Current Grade: (choose different grades from 9th,10th,11th)
 Future Course: (choose various courses and universities)
