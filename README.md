@@ -35,9 +35,8 @@ Using a predefined prompt template to generate synthetic entries.
             print(f"Error at sample {i + 1}: {e}")
     return synthetic_data```
 
-## 3. Prompt Template:
-```# Define the prompt template based on the existing data structure
-prompt_template = """Generate a synthetic academic pathway entry. Ensure each entry is unique:
+## 3.Prompt Template:
+```prompt_template = """Generate a synthetic academic pathway entry. Ensure each entry is unique:
 Current Grade: (choose different grades from 9th,10th,11th)
 Future Course: (choose various courses and universities)
 Duration: (vary between 2 to 4 years)
