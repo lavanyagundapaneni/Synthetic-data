@@ -1,4 +1,4 @@
-```import pandas as pd
+import pandas as pd
 import re
 from langchain_community.llms import Ollama
 
@@ -83,4 +83,3 @@ print(synthetic_df.head())
 # Further processing or saving the DataFrame as needed
 # For example, save to CSV
 synthetic_df.to_csv('synthetic_data_tiny_llama.csv', index=False)
-```
