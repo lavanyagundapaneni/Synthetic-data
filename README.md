@@ -1,7 +1,6 @@
 # Synthetic Academic Pathway Data Generation using Ollama
 This repository contains a script to generate synthetic academic pathway data using the Ollama LLM with the LLaMA2 7B model. The generated data is designed to mimic academic records and is useful for various educational data analysis tasks.
 
-## Overview
 The script generates synthetic academic pathway data and outputs it in a structured format (CSV). The process involves:
 
 ## 1.Initializing the LLM:
